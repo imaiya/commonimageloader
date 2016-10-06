@@ -102,7 +102,7 @@ so,自定义一个类,实现`ImageLoaderClient`接口即可,如使用Glide加载
 
 ## License ##
 
-    Copyright 2014 chenzhenboy
+    Copyright 2016 chenzhenboy
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
