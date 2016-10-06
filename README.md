@@ -1,5 +1,5 @@
 
-## CommonimageLoader ##
+## CommonImageLoader ##
 > 一个工具,针对于图片加载框架的抽象封装,主要功能:
 >   
 > - 支持全局更换具体的图片加载框架,内部代码无需改动
