@@ -95,6 +95,7 @@ so,自定义一个类,实现`ImageLoaderClient`接口即可,如使用Glide加载
     		}
 	}
 
+
 ## 关于作者 ##
 
 - 简	书:[uncochen](http://www.jianshu.com/users/1695117cc969 )
