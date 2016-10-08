@@ -55,10 +55,10 @@ app.gradle
 
 2.加载图片
 	
-	ImageLoaderHelper.load(context(), imageView, imageUrl);
+	ImageLoaderHelper.load(context, imageView, imageUrl);
   或者带缩略图的加载:
 
-	ImageLoaderHelper.load(context(), imageView, imageUrl,0.1f);
+	ImageLoaderHelper.load(context, imageView, imageUrl,0.1f);
 		
 ## 更换图片加载框架 ##
 项目开发中需要更换图片加载框架,如果去每一个加载图片的地方改代码,那...  
