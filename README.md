@@ -88,7 +88,6 @@ so,自定义一个类,实现`ImageLoaderClient`接口即可,如使用Glide加载
 可以自定义类实现`ImageInterceptor`接口,然后在init()中设置该拦截器,如:
 
 	public class MyInterceptor implements ImageInterceptor {
-
     		@Override
     		public String InterceptorUrl(String oldUrl) {		
         		return "http://" + oldUrl;//对url添加统一的前缀		
