@@ -91,8 +91,7 @@ so,自定义一个类,实现`ImageLoaderClient`接口即可,如使用Glide加载
 
     		@Override
     		public String InterceptorUrl(String oldUrl) {		
-        		return "http://" + oldUrl;//对url添加统一的前缀
-		
+        		return "http://" + oldUrl;//对url添加统一的前缀		
     		}
 	}
 
