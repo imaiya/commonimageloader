@@ -85,13 +85,13 @@ so,自定义一个类,实现`ImageLoaderClient`接口即可,如使用Glide加载
 拦截器可以对待加载的图片url进行统一的预处理,工具提供了默认拦截器(不对url做任何处理):
 
     .interceptor(new DefaInterceptor())//设置拦截器
-可以自定义类实现`ImageInterceptor`接口,然后在init()中设置该拦截器:
+可以自定义类实现`ImageInterceptor`接口,然后在init()中设置该拦截器,如:
 
-	public class DefaInterceptor implements ImageInterceptor {
+	public class MyInterceptor implements ImageInterceptor {
 
     	@Override
     	public String InterceptorUrl(String oldUrl) {
-        	return "http://" + oldUrl;
+        	return "http://" + oldUrl;//对url添加统一的前缀
     	}
 	}
 
